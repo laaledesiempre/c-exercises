@@ -1,5 +1,6 @@
-#include <stdio.h>
+# include <stdio.h>
 
-int main(){
-    printf("%d"EOF);
+main( )
+{
+    printf("%d\n",getchar()==EOF);
 }
